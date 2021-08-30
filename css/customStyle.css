@@ -1,0 +1,388 @@
+
+.frontSelect {
+    background-color: #fff;
+    color: #007bff;
+    font-weight: bold;
+    padding: 10px 7px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 0.25rem;
+	border:1px solid #007bff;
+}
+
+.deleverySelect {
+    background-color: #fff;
+    font-weight: bold;
+    padding: 10px 7px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 0.25rem;
+}
+
+/*
+.frontSelect:hover { 
+	background-color: #007bff; 
+	color:#fff;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+*/
+
+@media(min-width: 576px) {
+a .menuTxt { color:#ddd; margin:0 20px; }
+
+.menuTxt:hover {
+	color:#fff;
+	border-bottom:2px solid #73c019;
+	cursor:pointer;
+	transition: color 0.7s;
+}
+
+.menuBars { display:none; }
+
+.mainTxtContainer {
+	padding:10px; margin:80px auto 10px auto; background:none; height:130px; width:50%;
+}
+.selectContainer { padding:10px; margin:30px 0px 10px 0px; background:#73c019; height:90px; border-radius:2px; }
+.buyButton {
+	cursor:pointer; color:#fff; border-radius:3px; background:#999; padding:3px 10px; display:inline-block; margin:0px 10px;
+}
+.detailsButton {
+	cursor:pointer; color:#fff; border-radius:3px; background:#999; padding:3px 10px; display:inline-block; margin:0px 10px;
+}
+.buyButton:hover {
+	background-color: #007bff;
+	transition: all 0.5s;
+}
+.detailsButton:hover {
+	background-color: #73c019;
+	transition:all 0.5s;
+}
+.cat1 { color:#fff; vertical-align:top; margin-right:10px; display:inline-block; text-align:center; width:200px; }
+.cat2 { color:#fff; margin:0 10px 0 10px; display:inline-block; text-align:center; width:100px; }
+.cat3 { color:#fff; margin:0 10px 0 10px; display:inline-block; text-align:center; width:100px; }
+.cat4 { color:#fff; margin:0 10px 0 10px; display:inline-block; text-align:center; width:100px; }
+.cat5 { margin:0 0 0 10px; display:inline-block; background:#333; width:60px; float:right; height:100%; }
+.seasonSelect { font-weight:300; height:100%; border:none; border-radius:2px; color:#333; background-color:#eee; width:200px; }
+.sizeOneSelect { float:right; width:100px; font-weight:300; height:100%; border:none; border-radius:2px; color:#333; background-color:#eee; }
+.sizeTwoSelect { float:right; width:100px; font-weight:300; height:100%; border:none; border-radius:2px; color:#333; background-color:#eee; }
+.sizeThreeSelect { float:right; width:100px; font-weight:300; height:100%; border:none; border-radius:2px; color:#333; background-color:#eee; }
+.searchTyreButton { padding:10px 7px; font-size:20px; float:right; width:60px; font-weight:400; height:100%; border:none; border-radius:2px; color:#fff; background-color:#111; }
+.imgTxt { padding:60px 40px; height:auto; }
+.imgTxt:nth-child(even) {  background:#ddd; }
+.imgTxt:nth-child(odd) {  background:#f7f7f7; }
+.imtTxtDesc { padding:10px; padding-left:30px; background:none; height:100%; }
+.imgTxtImg { background:none; height:100%; text-align:center; }
+.imgTxtDesc2 { text-align:right; padding:10px; padding-right:30px; background:none; height:100%; }
+.frontLoading { display:none; margin-top:10px; }
+.icon3 { display:inline-block; margin:0 10px; vertical-align:top; }
+.tyreCard { border-radius:3px; display:inline-block; width:250px; height:auto; background:#eee; margin:15px; box-shadow:0px 2px 4px #999; }
+.tyreImg { background-size:contain; border-radius:3px 3px 0px 0px; padding:10px; width:100%; height:200px; background-color:#fff; }
+.tyreSearchResult { border-top:1px solid #eee; display:none; padding:40px; height:auto; background:#f7f7f7; }
+.tyreButtons { background:#ccc; padding:5px 10px 5px 10px; }
+.productDetailsContainer { background:#f7f7f7; height:auto; padding:40px; }
+.pdImgCont { vertical-align:top; background-color:#fff; padding:20px; }
+.pdDetailsCont { vertical-align:top; background-color:#fff; padding:20px; border-left:1px solid #ccc; }
+.pdIconsCont { color:#333; border-bottom:1px solid #ddd; margin:0px -20px 20px -20px; padding:20px; }
+.modal-content { width:600px; }
+.priceContainer { padding:0px 10px; border-radius:0.25rem; background-color:#fff3cd; position:absolute; right:20px; top:55px; width:auto; }
+.navTopContainer { padding:10px; height:80px; padding-left:0; }
+.navTopScroll { position:fixed; top:0; right:0; left:0; z-index:99; box-shadow:0px 1px 2px #000; transition:all 0.8s; }
+.navTop { background:#000; border-bottom:1px solid #111; }
+.logoContainer { text-align:left; background-color:#fff; margin:-10px 0px -10px 0px; padding-left:0px; }
+.navTopImg { width:170px; height:auto; margin:-13px -10px -12px -15px; background-color:none; }
+.menuContainer { padding:16px; background:none; }
+.bg-custom { background-color: #000 !important; border-bottom:1px solid #111; }
+#navbarSupportedContent { margin-left: 20px; }
+.contactCont { color:#aaa; padding:40px; background-color:#333; }
+.alertM { z-index:10040; position:fixed; top:0; right:0; left:0; margin:auto; width:500px; box-shadow:0px 2px 2px #777; }
+}
+
+@media(max-width: 575.98px ) {
+.menuTxt { }
+.menuBars {  margin:0 20px; display:inline-block; font-size:30px; }
+.menuBars:hover { color:#fff; }
+.mainTxtContainer { padding:10px; margin:50px auto 10px auto; background:none; height:130px; width:95%; }
+.selectContainer { padding:10px; margin:20px 10px 10px 10px; background:#73c019; height:auto; border-radius:2px; }
+.cat1 { color:#fff; vertical-align:top; display:inline-block; text-align:center; width:48%; }
+.cat2 { color:#fff;  display:inline-block; text-align:center; width:48%; float:right; }
+.cat3 { color:#fff; margin-top:10px; display:inline-block; text-align:center; width:48%; }
+.cat4 { color:#fff; margin-top:10px; display:inline-block; text-align:center; width:48%; float:right; }
+.cat5 { display:block; background:#333; width:100%; margin-top:15px;  }
+.seasonSelect { font-weight:300; height:100%; border:none; border-radius:2px; color:#333; background-color:#eee; width:100%; }
+.sizeOneSelect { float:right; width:90%; font-weight:300; height:100%; border:none; border-radius:2px; color:#333; background-color:#eee; }
+.sizeTwoSelect { float:right; width:100%; font-weight:300; height:100%; border:none; border-radius:2px; color:#333; background-color:#eee; }
+.sizeThreeSelect { float:right; width:90%; font-weight:300; height:100%; border:none; border-radius:2px; color:#333; background-color:#eee; }
+    .tyreSizeOneSelect { float:right; width:100%; font-weight:300; height:100%; border:none; border-radius:2px; color:#333; background-color:#eee; }
+    .tyreSizeTwoSelect { float:right; width:100%; font-weight:300; height:100%; border:none; border-radius:2px; color:#333; background-color:#eee; }
+    .tyreSizeThreeSelect { float:right; width:100%; font-weight:300; height:100%; border:none; border-radius:2px; color:#333; background-color:#eee; }
+.searchTyreButton { padding:10px 7px; font-size:20px;  width:100%; font-weight:400; height:100%; border:none; border-radius:2px; color:#fff; background-color:#111; }
+.imgTxt { padding:40px 20px; height:auto; }
+.imgTxt:nth-child(even) {  background:#ddd; }
+.imgTxt:nth-child(odd) {  background:#f7f7f7; }
+.imtTxtDesc { padding-top:20px; background:none; height:100%; }
+.imgTxtImg { background:none; height:100%; text-align:center;  position:absolute; right:20px; left:20px; width:auto; }
+.imgTxtDesc2 { text-align:left; padding:10px; padding-right:30px; background:none; height:100%; margin-top:210px; }
+.frontLoading { display:none; margin-top:0px; }
+.icon3 { display:block; margin:10px 10px 0px 10px; vertical-align:top; }
+.tyreCard { border-radius:3px; display:inline-block; width:auto; min-width:160px; height:auto; background:#eee; box-shadow:0px 2px 4px #999; }
+.tyreCard:nth-child(even) { margin: 5px 5px 5px 10px; }
+.tyreCard:nth-child(odd) { margin: 5px 10px 5px 5px; }
+.tyreImg { background-size:contain; border-radius:3px 3px 0px 0px; padding:10px; width:100%; height:150px; background-color:#fff; }
+.tyreSearchResult { border-top:1px solid #eee; display:none; padding:40px 0; height:auto; background:#f7f7f7; }
+.tyreButtons { background:#ccc; padding:5px 0; }
+.productDetailsContainer { background:#f7f7f7; height:auto; padding:40px 10px; }
+.pdImgCont { vertical-align:top; background-color:#fff; padding:40px 0; }
+.pdDetailsCont { vertical-align:top; background-color:#fff; padding:20px; border-top:1px solid #ccc; }
+.pdIconsCont { color:#333; border-bottom:1px solid #ddd; margin:0px -20px 20px -20px; padding:20px 0; }
+.modal-content { width:auto; }
+.priceContainer { padding:0px 10px; border-radius:0.25rem; background-color:#fff3cd; right:50px; top:-50px; width:auto; }
+.buyButton { cursor:pointer; color:#fff; border-radius:3px; background:#007bff; padding:3px 10px; display:inline-block; margin:0px 10px; }
+.detailsButton { cursor:pointer; color:#fff; border-radius:3px; background:#73c019; padding:3px 10px; display:inline-block; margin:0px 10px; }
+.buyButton:hover { background-color: #007bff; transition: all 0.5s; }
+.detailsButton:hover {  background-color: #73c019; transition:all 0.5s; }
+.navTopContainer { padding:10px; height:60px; }
+.navTopScroll { position:fixed; top:0; right:0; left:0; z-index:99; transition:all 0.8s; }
+.navTop { background:#f7f7f7; border-bottom:1px solid #ccc; }
+.logoContainer { text-align:left; background:none; margin:-10px 0; padding-left:0px; display:inline-block; width:150px; }
+.navTopImg { width:120px; height:auto; margin:-13px -10px -12px -16px; background-color:none; }
+.menuContainer { padding:16px; background:none; display:inline-block; }
+.bg-custom { background-color: #000 !important; border-bottom:1px solid #111; }
+#navbarSupportedContent { margin-top:10px; }
+.contactCont { color:#aaa; padding:40px 20px; background-color:#333; }
+.contactCont .row .col-6:nth-child(1)  { margin-bottom:20px; }
+.alertM { z-index:10040; position:fixed; top:0; right:0; left:0; margin:auto; width:100%; box-shadow:0px 2px 2px #777; }
+}
+
+
+
+
+
+#continuous-slider {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.continuous-slider--wrap {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+  
+.continuous-slider--wrap ul {
+      display: block;
+      list-style: none;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+	  overflow:hidden;
+}
+
+.continuous-slider--wrap ul li {
+        display: inline-block;
+        float: left;
+        position: relative;
+        width: 200px;
+        height: auto;
+        line-height: 200px;
+        text-align: center;
+}
+
+.continuous-slider--wrap ul li img {
+          vertical-align: middle;
+          max-width: 100%;
+          max-height: 100%;
+          -webkit-transition: 0 linear left;
+          -moz-transition: 0 linear left;
+          transition: 0 linear left;
+          opacity: 0.65;
+}
+
+.continuous-slider--wrap ul li img:hover {
+            opacity: 1.0;
+}
+
+.brandCont {
+	border-radius:5px; box-shadow:0px 2px 2px #ccc; display:inline-block; background:#ddd; height:100%;  margin:10px; padding:20px;
+	filter: grayscale(100%);
+	webkit-filter:grayscale(100%);
+	background:none; box-shadow:none; 
+}
+.brandCont:hover {
+	filter: grayscale(0%);
+	webkit-filter:grayscale(0%);
+	box-shadow:0px 2px 5px #ccc;
+	transition:all 0.5s;
+	box-shadow:none;
+}
+.brandCont:hover img {
+	box-shadow:4px 2px 16px 2px #555;
+	transition:all 0.5s;
+}
+
+.imgTxt img { 
+	webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);
+}
+.imgTxt:hover img {
+	webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	transition: all 1s;
+}
+
+.list-group-item .resultNum { 
+	background-color:#999;
+	display:inline-block; border-radius:2px; font-size:13px; padding:0px 5px; margin-left:5px; color:#fff;
+}
+.list-group-item.active .resultNum {
+	background-color: #000; /*#73c019;*/
+}
+.list-group-item:hover .resultNum {
+	background-color: #000; /*#73c019;*/
+}
+.list-group-item.active { color:#000; }
+.list-group-item:hover { color:#000; }
+
+
+.form-control { font-weight:500; }
+
+.labelMod { width:130px; display:inline-block; }
+.inputMod { display:inline-block; width:220px; }
+.inputModDekk { display:inline-block; width:220px; }
+
+.table-condensed > thead > tr > th, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > tbody > tr > td, .table-condensed > tfoot > tr > td 
+	{
+		padding: 5px;
+	}
+	
+.serviceBar {
+	font-size:14px; 
+	display:inline-block;  
+	border-radius:0.25rem; 
+	padding:2px 10px; 
+	margin:3px;
+}
+.serviceBar:hover {
+	background-color:#007bff;
+	border:1px solid #007bff;
+	color:#fff;
+	transition: all 0.3s;
+	cursor:pointer;
+}
+
+.inactiveService { 
+	background-color:#fff;
+	border:1px solid #aaa;
+	color:#333; 
+}
+
+.activeService {
+	background-color:#007bff;
+	border:1px solid #007bff;
+	color:#fff;
+}
+
+.btnMod { 
+	background-color:#f7f7f7; 
+	color:#555; 
+	border:1px solid #ccc;
+}
+
+.btnMod.focus, .btnMod:focus {
+	box-shadow: 0 0 0 0.25rem #eee;
+}
+.btnMod.active.focus, .btnMod.active:focus {
+	box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
+}
+
+
+/* HOME: search results tabs */
+.list-group-item {
+    background-color: #e6e6e6;
+}
+
+.list-group-item.active {
+    background-color: #ff9400;
+    color: #fff;
+}
+
+/* POPUP: Dekkhotell kunde */
+.popup {
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    width: auto;
+    padding: 10px;
+    border: 5px solid #ffa000;
+    border-radius: 10px;
+    color: #ffa000!important;
+    background: black;
+    text-align: center;
+}
+
+/* POPUP: Tyres management kunde */
+.tyres-popup {
+    position: absolute;
+    top: 8rem;
+    right: 10px;
+    width: auto;
+    padding: 10px;
+    border: 5px solid #ffa000;
+    border-radius: 10px;
+    color: #ffa000!important;
+    background: black;
+    text-align: center;
+    z-index: 10;
+}
+
+@media(max-width: 767px ) {
+    .popup {
+        position: static;
+        display: block;
+    }
+
+    .tyres-popup {
+        position: absolute;
+        top: 9.5rem;
+    }
+}
+
+.delivery-popup {
+    cursor: pointer;
+    border: 5px solid black;
+    /*border-radius: 10px;*/
+    color: black!important;
+    background: white;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    height: unset;
+}
+
+.tyre-management-popup {
+    cursor: pointer;
+    border: 5px solid #ffa000;
+    border-radius: 10px;
+    color: #ffa000!important;
+    background: black;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    height: unset;
+}
+
+.popup .action {
+    color: white;
+    font-weight: bold;
+}
+
+.popup:hover {
+    background: gray;
+}
+
+.full-width-alert {
+    border-radius: 0;
+    margin: 10px -16px 0px -16px;
+}

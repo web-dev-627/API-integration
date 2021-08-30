@@ -1,0 +1,182 @@
+/* Installation Body */
+body {	font-family: calibri;
+		width: auto;}
+
+
+#install {
+	padding: 30px 5px 0px 15px;
+	background: url('../images/i_back.png');
+	
+	font-family: calibri,arial,verdana,sans-serif;
+	}
+
+h2 { font-size: 40px;
+	color: #444;
+	font-style: ; }
+	
+/* ------FORMS------ */
+form{	border: solid 0.09em;
+		border-color: #CCC;
+		border-radius: 3px;
+		box-shadow:  rgba(0,0,0,0.4) 1px 1px ;
+		background: #f6f6f6; 
+
+		margin: 4px;
+		float: left;
+		clear:left;
+		width: auto;
+		padding: .5em 1em 0.5em 1em;
+		position: relative;
+		}
+
+
+form h3 { font: bold 150% calibri;
+		margin: 0 0 0.6em;
+		font-style: border;
+		border-bottom: dashed 1px green;
+		background-color: ;
+		color: green;}
+
+hr { 	border: solid 1px #fff; 
+		margin: 2px;}
+		
+form label input { 	height: 27px; 
+			width:15em;
+			font-family: calibri;
+			font-size: 15px;
+			color: #000;			
+			border: solid 0.1em;
+			border-color: #ccc;
+			border-radius: 3px;
+			margin: 3px 0 8px 0px;
+			padding: 0 5px 0 5px; }
+
+form label input:hover { border-color: green; }
+			
+form label b{ 	width: 8em;
+			float: left;
+			display:block;
+			position:relative;}
+			
+input.button {	border: solid 1px #DDD;
+		background-color: green;
+		border-radius: 3px;
+		font-family: calibri;
+		color: #fff;
+		width: 8em;
+		
+		margin: 0;
+		height: 28px;}
+		
+input.button:hover {	border: solid 1px #CCC;
+					background-color: #DDD;
+					color: #000;}
+
+
+					
+/* ------INFO TAB------ */
+
+div.info { margin	: 5px;
+		border: solid 0.1em #CCC;
+		padding: 5px 5px 5px 10px;
+		background-color: #fff; 
+		border-radius: 3px;
+		box-shadow:  rgba(0,0,0,0.4) 1px 1px ;
+		float: right;
+		position: relative ;
+		width: ;
+		
+				}
+div.info:hover {	background-color: ; }
+
+div.info p {	margin: 0px;
+			font-family: calibri;
+			font-style: ;
+			color: ;}
+div.info p.install { width: 17.5em;}
+div.info p.install2 { width: 15.3em; }
+div.info h4 { margin: 1 1 8px 1px;
+			color:	green;
+			font-weight: bold;
+			border-bottom: dashed 0.1em green; }
+
+		
+/* ERROR */
+div.error {	margin: 4px;
+			padding: 2px 5px 2px 5px;
+			background-color: #c00;
+			border-radius: 2px;
+			box-shadow:  rgba(0,0,0,0.4) 1px 1px ;
+			color: #fff;
+			width: auto;
+			position: relative;
+			float: left;
+			}
+div.error:hover { background-color: #fff;
+				cursor: default;
+				color: #000; }
+
+/* SUCCESS */
+div.success {	margin: 4px;
+			padding: 2px 5px 2px 5px;
+			background-color: green;
+			border-radius: 2px;
+			box-shadow:  rgba(0,0,0,0.4) 1px 1px ;
+			color: #fff;
+			width: auto;
+			position: relative;
+			float: left;
+			}
+div.success:hover { background-color: #fff;
+				cursor: default;			
+				color: #000; 
+				
+				}
+				
+div.success:hover span { display: block; 
+						opacity:1; transition: opacity 2s linear; -webkit-transition: opacity 2s linear; 
+							 }
+div.success:hover span:after { display: block;
+							width: 10px; height: 10px;
+							background: #000;
+							transform: rotate(45deg);
+							-webkit-transform:rotate(45deg);
+							left: 50%;
+							top: -5px;
+							position: absolute ;
+							content:'';
+							
+							}
+				
+
+				
+span{
+    background: #000; 
+    border: 1px solid #DDD;
+    color: #fff;
+    position: absolute;
+	padding: 2px 5px 2px 5px;
+	margin: 5px;
+	font-size: 13px;
+    text-align: center;
+	border-radius: 5px;
+	top: ;
+	display: none;
+    font-family: calibri; 
+	
+	
+}
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	
